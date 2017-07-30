@@ -1,0 +1,253 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+	
+}
+.container{
+	width:80%; 
+	margin:auto;
+	overflow:hidden;
+}
+
+.button_1{
+	height:35px;
+	background:#0177bf;
+	border:none;
+	padding-left:10px;
+}
+header{
+	
+	background:#0177bf;
+	color:#ffffff;
+	padding-top:10px;
+	min-height:70px;
+    
+
+	
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header #brand{
+	
+	float:left;
+	
+}
+
+header nav{
+	float:right;
+	margin-top:30px;
+}
+
+header .current a{
+	color:#0f0807;
+	font-weight:bold;
+	
+}
+
+header a:hover,a:focus{
+	color:black;
+	
+}
+#particles{
+    width: 100%;
+    min-height:610px;
+}
+
+#showcase{
+	
+	min-height:550px;
+	
+	background-color:#0177bf;
+	text-align:center;
+	color:white;
+	
+}
+#showcase ,h2{
+    margin: auto;
+    width: 100%;
+   
+    padding-top: 5%;
+    
+}
+#icon{
+    
+  height: 200px;
+    position: relative;
+    
+    
+}
+#icon img{
+    width: 20%;
+    min-width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+
+
+
+
+
+#nextarea{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+	
+}
+#nextarea h1{
+	float:left;
+}
+#nextarea form{
+	float:right;
+	margin-top:20px;
+}
+#nextarea input[type="email"]{
+	padding:4px;
+	height:20px;
+	width:250px;
+}
+
+#boxes{
+	margin-top:20px;
+	
+}
+#boxes h1{
+	text-align:center;
+}
+
+#boxes .box{
+	float:left;
+	text-align:center;
+	
+	width:30%;
+	padding:10px;
+	
+}
+#boxes .box img{
+	width:100px;
+}
+
+footer{
+	padding:30px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#0177bf;
+	text-align:center;
+}
+
+@media(max-width:768px){
+	header #brand, 
+	header nav, 
+	header nav li,
+	#nextarea h1,
+	#nextarea form,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+header{
+	
+	padding-bottom:20px;
+}
+    
+#showcase h2{
+	margin-top:40px;
+}
+#nextarea button{
+	display:block;
+	width:100%;
+}
+#nextarea form input[type="email"]{
+	width:100%;
+	margin-bottom:5px; 
+}
+
+}
+
+@media(max-width:550px){
+	header #brand, 
+	header nav, 
+	header nav li,
+	#nextarea h1,
+	#nextarea form,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+    
+header{
+	
+	background:#0177bf;
+	color:#ffffff;
+	padding-top:1px;
+	min-height:70px;
+    
+
+	
+}
+    header a{
+        font-size: 13px;
+        display: block;
+    }
+    header li{
+	float:left;
+	display:inline;
+	padding:0 0px 0 1px;
+}
+    header #brand{
+	
+	font-size: 12px;
+	
+}
+    #name h2{
+        font-size: 10px;
+    }
+
+#showcase h2{
+    font-size: 16px;
+	margin-top:0px;
+}
+#nextarea button{
+	display:block;
+	width:100%;
+}
+#nextarea form input[type="email"]{
+	width:100%;
+	margin-bottom:5px; 
+}
+
+}
