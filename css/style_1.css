@@ -1,0 +1,170 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.container{
+	width:80%; 
+	margin:auto;
+	overflow:hidden;
+}
+
+.button_1{
+	height:35px;
+	background:#0177bf;
+	border:none;
+	padding-left:10px;
+}
+#hed{
+	
+	background:#0177bf;
+	color:#ffffff;
+	padding:5px;
+	min-height:2px;
+    
+
+	
+}
+#hed a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:15px;
+}
+#hed ul{
+	margin:0;
+	padding:0;
+}
+#hed li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+#hed #brand{
+	
+	float:left;
+	
+}
+
+#hed nav{
+	float:right;
+	margin-top:0px;
+}
+
+#hed .current a{
+	color:#0f0807;
+	font-weight:bold;
+	
+}
+
+#hed a:hover,a:focus{
+	color:black;
+	
+}
+@media(max-width:768px){
+	#hed #brand, 
+	#hed nav, 
+	#hed nav li,
+	#nextarea h1,
+	#nextarea form,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+#hed{
+	
+	padding-bottom:20px;
+}
+    
+
+}
+
+@media(max-width:550px){
+	#hed #brand, 
+	#hed nav, 
+	#hed nav li,
+	#nextarea h1,
+	#nextarea form,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+    
+#hed{
+	
+	background:#0177bf;
+	color:#ffffff;
+	padding:10px;
+	min-height:70px;
+    
+
+	
+}
+    #hed a{
+        font-size: 13px;
+        display: inline;
+    }
+    #hed li{
+	float:left;
+	display:inline;
+	padding:0 10px 0 10px;
+}
+    #hed #brand{
+	
+	font-size: 13px;
+	
+}
+    #name h2{
+        font-size: 10px;
+    }
+
+
+}
+
+@media(max-width:335px){
+	#hed #brand, 
+	#hed nav, 
+	#hed nav li,
+	#nextarea h1,
+	#nextarea form,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+    
+#hed{
+	
+	background:#0177bf;
+	color:#ffffff;
+	padding:10px;
+	min-height:70px;
+    
+
+	
+}
+    #hed a{
+        font-size: 13px;
+        display: inline;
+    }
+    #hed li{
+	float:left;
+	display:inline;
+	padding:0 1px 0 2px;
+}
+    #hed #brand{
+	
+	font-size: 13px;
+	
+}
+    #name h2{
+        font-size: 10px;
+    }
+
+
+}
